@@ -8,6 +8,11 @@ h1 { font-size: clamp(2rem, 7vw, 3.4rem); line-height: 1.05; }
 h2 { margin-top: 2rem; font-size: 1.25rem; }
 nav { margin-bottom: 28px; color: #777; }
 a { color: #1688e8; }
+.download { margin: 28px 0; }
+.app-store-button { display: inline-flex; align-items: center; justify-content: center; box-sizing: border-box; min-height: 48px; max-width: 100%; padding: 12px 24px; border-radius: 8px; background: #006bc7; color: #fff; font-weight: 700; text-align: center; text-decoration: none; }
+.app-store-button:hover { background: #0056a3; }
+.app-store-button:focus-visible { outline: 3px solid CanvasText; outline-offset: 4px; }
+@media (max-width: 480px) { .app-store-button { width: 100%; } }
 .links { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 1px; margin: 28px 0; background: color-mix(in srgb, CanvasText 16%, transparent); border: 1px solid color-mix(in srgb, CanvasText 16%, transparent); }
 .links a { display: grid; gap: 6px; padding: 20px; background: Canvas; text-decoration: none; }
 .links span { color: color-mix(in srgb, CanvasText 62%, transparent); }
